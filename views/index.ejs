@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <script src="/javascripts/index.js"></script>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <input type="date" id="date" name="countdownDate"
+      value=Date() required>
+    <input type="time" id="time" name="coutdownTime" required>
+    <button onclick="saveCookie()">Countdown!</button>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <script src="/javascripts/countdown.js"></script>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body onload="countdownDisplay(dateToEpoch())">
+    <h1><%= title %></h1>
+    <p>Time remaining:</p>
+    <p id="countdown"></p>
+    <a href="/" class="button">Change Date</a>
+  </body>
+</html>
